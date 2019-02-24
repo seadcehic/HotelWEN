@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="HotelWienEntities-Web.config Connection String" description="HotelWienEntities Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost;Initial Catalog=Hotel;Integrated Security=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\SEAD\\source\\repos\\HotelWIEN\\HotelWIEN_API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HotelWienEntities']/@connectionString" />
+  </parameter>
+  <parameter name="HotelWienEntities_DatabasePublish-Web.config Connection String" description="HotelWienEntities_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="HotelWienEntities_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\SEAD\\source\\repos\\HotelWIEN\\HotelWIEN_API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HotelWienEntities_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

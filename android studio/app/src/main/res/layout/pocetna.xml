@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Od 1870. godine Hotel 'WIEN' je poznat u svijetu po izuzetnoj gostoljubivosti i profinjenom luksuzu. "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Dugogodišnje središte bečkog visokog društva i prepoznatljivih međunarodnih gostiju, Hotel 'WIEN' nudi vrhunski raspon luksuznih soba i apartmana, bez premca gurmanske obroke i vodećih svjetskih korisničkih usluga. "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text=" Jedan od najboljih luksuznih hotela u Beču, 'WIEN' uvek garantuje iskustvo koje treba zapamtiti. "/>
+
+    <TextView
+        android:text="Welcome!"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:src="@drawable/welcome"
+        android:layout_height="220dp" />
+</LinearLayout>

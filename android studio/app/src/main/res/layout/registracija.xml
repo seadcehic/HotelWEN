@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/slikaDodajUsera"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_add_friend"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <EditText
+        android:id="@+id/ime"
+        android:hint="Ime"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/prezime"
+        android:hint="Prezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/telefon"
+        android:hint="Telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/korisnickoIme"
+        android:hint="Korisnicko ime"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/lozinka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lozinka"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnregistrujSe"
+        android:text="registruj se"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
